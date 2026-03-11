@@ -1,55 +1,56 @@
-📦 Sistema de Gestão de Estoque & Patrimônio
-Este é um projeto Fullstack de alta performance desenvolvido para gerenciar ativos e produtos. O sistema integra um backend robusto que processa a lógica de inventário e um frontend dinâmico para visualização de dados e relatórios.
+📦 Controle de Estoque & Patrimônio
+Sistema Fullstack de alta performance projetado para gestão inteligente de ativos e inventário. O projeto une um ecossistema robusto em Java para processamento de dados a uma interface moderna e ágil em Next.js.
 
 🚀 Tecnologias de Última Geração
 Backend (Core)
 
-Java 25: Utilizando as funcionalidades mais recentes da linguagem para performance e segurança.
+Java 25: Utilizando as funcionalidades de vanguarda da linguagem para máxima performance.
 
-Spring Boot 3.4+: Framework para construção de APIs REST escaláveis.
+Spring Boot 3.4+: Arquitetura baseada em APIs REST escaláveis.
 
-Spring Data JPA: Abstração de persistência de dados.
+Spring Data JPA: Persistência de dados eficiente e segura.
 
-Maven: Gestão de dependências e build.
+Maven: Automação de build e gestão de dependências.
 
 Frontend
 
-Next.js 15/16: Framework React para uma experiência de usuário rápida.
+Next.js 15/16: Framework React de última geração para uma experiência fluida.
 
-Tailwind CSS: Design responsivo e minimalista.
+Tailwind CSS: Design responsivo, minimalista e focado em UX.
 
-jsPDF: Biblioteca para geração de relatórios de estoque diretamente no cliente.
+jsPDF: Motor de renderização para relatórios PDF diretamente no navegador.
 
 ✨ Funcionalidades Principais
-📊 Dashboard de Patrimônio: Cálculo automático do valor total investido no inventário.
+📊 Dashboard de Patrimônio: Monitoramento em tempo real do valor total investido no estoque.
 
-📄 Relatórios Exportáveis: Geração de PDFs profissionais para controle administrativo.
+📄 Relatórios Exportáveis: Emissão de documentos profissionais para controle administrativo.
 
-🔍 Filtro em Tempo Real: Localização rápida de produtos e categorias.
+🔍 Busca Dinâmica: Filtros inteligentes por nome, categoria e status do produto.
 
-🏗️ Arquitetura Escalável: Organização seguindo os padrões de camadas (Controller, Service, Repository).
+🏗️ Arquitetura Limpa: Organização rigorosa em camadas (Controller, Service, Repository).
 
 🛠️ Como rodar o projeto
 1. Pré-requisitos
 
-JDK 25 instalado e configurado nas variáveis de ambiente.
+JDK 25 configurado no ambiente.
 
-Node.js instalado para o frontend.
+Node.js (LTS recomendado).
 
-2. Configuração do Backend
+2. Backend (Java)
 
 Bash
-# Entre na pasta do projeto Java
 cd controle-estoque
-# Execute a aplicação
 ./mvnw spring-boot:run
-API rodando em: http://localhost:8080
+API disponível em: http://localhost:8080
 
-3. Configuração do Frontend
+3. Frontend (Next.js)
 
 Bash
-# Entre na pasta do frontend
 cd controle-estoque-front
-# Instale as dependências e inicie
 npm install && npm run dev
-Interface rodando em: http://localhost:3000
+Interface disponível em: http://localhost:3000
+
+👨‍💻 Autor
+Alailson Bispo
+Estudante de Análise e Desenvolvimento de Sistemas (ADS) | Salvador-BA
+Focado em Engenharia de Software e soluções Fullstack.
