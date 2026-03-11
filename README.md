@@ -3,7 +3,7 @@
 Sistema **Fullstack** de alta performance projetado para gestão inteligente de ativos e inventário. O projeto une um ecossistema robusto em Java para processamento de dados a uma interface moderna e ágil em Next.js.
 
 ---
-> 💡 **Nota:** Este é o repositório do **[Backend]**. Para ver o ecossistema completo, acesse o repositório do **[https://github.com/Alailsonbispo/controle-estoque-front aqui: [LINK_AQUI].
+> 💡 **Nota:** Este é o repositório do **[Backend]**. Para ver o ecossistema completo, acesse o repositório do ** aqui: [[LINK_AQUI](https://github.com/Alailsonbispo/controle-estoque-front)].
 
 ## 🚀 Tecnologias de Última Geração
 
