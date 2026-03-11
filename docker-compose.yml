@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:17-alpine # Versão mais atual e leve do Postgres
+    container_name: controle_estoque_db
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: password123
+      POSTGRES_DB: estoque_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
